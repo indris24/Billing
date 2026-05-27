@@ -1,0 +1,124 @@
+{
+  "settings": {
+    "companyName": "Vpayar India Solutions",
+    "phone": "9876543210",
+    "email": "billing@vpayar.in",
+    "gstin": "27AAPCV1234F1Z5",
+    "address": "123 Business Park, Tech Zone, Mumbai, 400001",
+    "currency": "₹",
+    "invoicePrefix": "INV-2026-",
+    "terms": "1. Goods once sold will not be taken back.\n2. Double check item warranty constraints."
+  },
+  "items": [
+    {
+      "id": "item-1",
+      "name": "Premium Leather Back Office Chair",
+      "salePrice": 4500,
+      "purchasePrice": 3200,
+      "isbn": "CH-908",
+      "stock": 41,
+      "gstRate": 18
+    },
+    {
+      "id": "item-2",
+      "name": "Logitech MX Master Wireless Mouse",
+      "salePrice": 8500,
+      "purchasePrice": 6200,
+      "isbn": "MS-MX3",
+      "stock": 15,
+      "gstRate": 18
+    },
+    {
+      "id": "item-3",
+      "name": "UltraWide IPS 27-inch Monitor",
+      "salePrice": 18000,
+      "purchasePrice": 14000,
+      "isbn": "MN-UW27",
+      "stock": 8,
+      "gstRate": 18
+    },
+    {
+      "id": "item-4",
+      "name": "Organic Roasted Coffee Beans (1kg)",
+      "salePrice": 1200,
+      "purchasePrice": 850,
+      "isbn": "CF-ROAST",
+      "stock": 120,
+      "gstRate": 5
+    },
+    {
+      "id": "item-5",
+      "name": "A4 High-Speed Copy Paper (500 sheets)",
+      "salePrice": 320,
+      "purchasePrice": 220,
+      "isbn": "PP-A4",
+      "stock": 350,
+      "gstRate": 12
+    },
+    {
+      "id": "item-1779894666604",
+      "name": "hello",
+      "salePrice": 9090,
+      "purchasePrice": 90,
+      "isbn": "jgkjkjkj",
+      "stock": 3,
+      "gstRate": 18
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-101",
+      "invoiceNumber": "INV-2026-101",
+      "date": "2026-05-24",
+      "dueDate": "2026-06-05",
+      "customerName": "Suresh Kumar",
+      "customerPhone": "9876543211",
+      "customerAddress": "Row House 4, Dwarka, Delhi",
+      "items": [
+        {
+          "itemId": "item-1",
+          "name": "Premium Leather Back Office Chair",
+          "price": 4500,
+          "quantity": 2,
+          "gstRate": 18,
+          "discount": 10
+        }
+      ],
+      "taxType": "exclusive",
+      "additionalCharges": 150,
+      "discountAmount": 100,
+      "roundOff": -0.2,
+      "totalAmount": 9249.8,
+      "balanceDue": 9249.8,
+      "paymentStatus": "Unpaid",
+      "notes": "Please deliver to office desk assembly team on priority."
+    },
+    {
+      "id": "INV-1779894639640",
+      "invoiceNumber": "INV-2026-102",
+      "date": "2026-05-21",
+      "dueDate": "2026-05-22",
+      "customerName": "hello",
+      "customerPhone": "9444776733",
+      "customerAddress": "na",
+      "items": [
+        {
+          "itemId": "item-1",
+          "name": "Premium Leather Back Office Chair",
+          "price": 4500,
+          "quantity": 1,
+          "gstRate": 18,
+          "discount": 0
+        }
+      ],
+      "taxType": "exclusive",
+      "additionalCharges": 5434,
+      "discountAmount": 4334,
+      "roundOff": 0,
+      "totalAmount": 6410,
+      "balanceDue": 6410,
+      "paymentStatus": "Unpaid",
+      "notes": "hello"
+    }
+  ]
+}

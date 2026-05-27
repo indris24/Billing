@@ -1,0 +1,30 @@
+[
+  {
+    "id": "INV-101",
+    "invoiceNumber": "JDS-2026-101",
+    "date": "2026-05-24",
+    "dueDate": "2026-06-05",
+    "customerId": "cust-1",
+    "customerName": "Suresh Kumar",
+    "customerPhone": "9876543211",
+    "customerAddress": "Row House 4, Dwarka, Delhi",
+    "items": [
+      {
+        "itemId": "item-1",
+        "name": "Premium Leather Back Office Chair",
+        "price": 4500,
+        "quantity": 2,
+        "gstRate": 18,
+        "discount": 10
+      }
+    ],
+    "taxType": "exclusive",
+    "additionalCharges": 150,
+    "discountAmount": 100,
+    "roundOff": -0.2,
+    "totalAmount": 9249.8,
+    "balanceDue": 9249.8,
+    "paymentStatus": "Unpaid",
+    "notes": "Please deliver to office desk assembly team on priority."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Vpayar",
+  "description": "Elegant and intelligent billing & custom invoice generator with dual phone/desktop workspace layouts, WhatsApp sharing support, PDF export, and active item inventories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

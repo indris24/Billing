@@ -1,0 +1,11 @@
+[
+  {
+    "id": "cust-1",
+    "name": "Suresh Kumar",
+    "phone": "9876543211",
+    "email": "suresh@example.com",
+    "address": "Row House 4, Dwarka, Delhi - 110075",
+    "gstin": "",
+    "createdAt": "2026-05-01"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "item-1",
+    "name": "Premium Leather Back Office Chair",
+    "salePrice": 4500,
+    "purchasePrice": 3200,
+    "isbn": "CH-908",
+    "stock": 41,
+    "gstRate": 18,
+    "category": "Furniture"
+  },
+  {
+    "id": "item-2",
+    "name": "Logitech MX Master Wireless Mouse",
+    "salePrice": 8500,
+    "purchasePrice": 6200,
+    "isbn": "MS-MX3",
+    "stock": 15,
+    "gstRate": 18,
+    "category": "Electronics"
+  },
+  {
+    "id": "item-3",
+    "name": "UltraWide IPS 27-inch Monitor",
+    "salePrice": 18000,
+    "purchasePrice": 14000,
+    "isbn": "MN-UW27",
+    "stock": 8,
+    "gstRate": 18,
+    "category": "Electronics"
+  },
+  {
+    "id": "item-4",
+    "name": "Organic Roasted Coffee Beans (1kg)",
+    "salePrice": 1200,
+    "purchasePrice": 850,
+    "isbn": "CF-ROAST",
+    "stock": 120,
+    "gstRate": 5,
+    "category": "Grocery"
+  },
+  {
+    "id": "item-5",
+    "name": "A4 High-Speed Copy Paper (500 sheets)",
+    "salePrice": 320,
+    "purchasePrice": 220,
+    "isbn": "PP-A4",
+    "stock": 350,
+    "gstRate": 12,
+    "category": "Stationery"
+  }
+]
